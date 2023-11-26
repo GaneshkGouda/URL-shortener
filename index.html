@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL SHORTNER</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cont">
+        <i class='bx bx-link-alt'></i>
+        <h1>URL Shortner</h1>
+        <label for="orginalurl">Enter URL to shorten :</label>
+        <input type="text" id="orginalurl" placeholder="www.example.com">
+        <div class="button">
+            <button id="reload-btn">Reload</button>
+            <button id="short-btn">Short IT</button>
+        </div>
+        <label for="shortenedUrl">Shortened URl :</label>
+        <textarea   id="shortenedUrl"  ></textarea>
+
+    </div>
+</body>
+<script src="script.js">
+//     const shortBtn =document.getElementById("short-btn");
+//     const reloadBtn =document.getElementById("reload-btn");
+// shortBtn.addEventListener("click",shortenUrl);
+
+// function shortenUrl(){
+// var orginalurl = document.getElementById("orginalurl").value;
+//  var apiurl = "https://tinyurl.com/api-create.php?url="+encodeURIComponent(orginalurl);
+
+//  shortenedUrlTextararea = document.getElementById("shortenedUrl");
+//  fetch(apiurl).then(response => response.text()).then(data => {
+//     shortenedUrlTextararea.value=data;
+
+//  }).catch(error =>{
+//     shortenedUrlTextararea.value=" Error : unable to short Url!"
+//  });
+// }
+// reloadBtn.addEventListener('click',() =>{
+//     location.reload()
+// })
+
+
+
+</script>
+</html>
